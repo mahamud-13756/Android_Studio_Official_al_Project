@@ -32,16 +32,15 @@
         android:hint="Enter Number"
         android:inputType="number" />
 
-    <EditText
+    <TextView
         android:id="@+id/eNumber3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:background="@color/white"
-        android:hint="Output"
         android:textSize="25dp"
-        android:inputType="number" />
+        android:hint="Output" />
 
     <Button
         android:id="@+id/add"
