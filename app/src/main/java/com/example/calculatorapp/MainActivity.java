@@ -35,9 +35,51 @@ public class MainActivity extends AppCompatActivity {
                 ans=fv+sv;
 
                 tv.setText("Ans is: "+ans);
-
             }
         });
+
+
+        minus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int fv,sv,ans;
+                fv = Integer.parseInt(en1.getText().toString());
+                sv = Integer.parseInt(en2.getText().toString());
+
+                ans=fv-sv;
+
+                tv.setText("Ans is: "+ans);
+            }
+        });
+
+
+        mul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int fv,sv,ans;
+                fv = Integer.parseInt(en1.getText().toString());
+                sv = Integer.parseInt(en2.getText().toString());
+
+                ans=fv*sv;
+
+                tv.setText("Ans is: "+ans);
+            }
+        });
+
+
+        div.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int fv,sv,ans;
+                fv = Integer.parseInt(en1.getText().toString());
+                sv = Integer.parseInt(en2.getText().toString());
+
+                ans=fv/sv;
+
+                tv.setText("Ans is: "+ans);
+            }
+        });
+
 
         //this is java backend file
     }
