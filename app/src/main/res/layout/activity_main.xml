@@ -4,59 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6200EE"
     android:orientation="vertical"
-    android:background="#00FF00"
-    tools:context=".MainActivity"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    >
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="Enter Number"
+        android:background="@color/white"
+        android:textSize="25dp"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/editTextNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:background="@color/white"
+        android:textSize="25dp"
+        android:hint="Enter Number"
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextNumber3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:background="@color/white"
+        android:hint="Output"
+        android:textSize="25dp"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="none"
+        android:text="+"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="none"
+        android:text="-"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="none"
+        android:text="*"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="none"
+        android:text="/"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
 </LinearLayout>
