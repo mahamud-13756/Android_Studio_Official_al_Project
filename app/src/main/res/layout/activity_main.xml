@@ -11,7 +11,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/eNumber1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -22,7 +22,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/eNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -33,7 +33,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/eNumber3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -44,7 +44,7 @@
         android:inputType="number" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -56,7 +56,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -68,7 +68,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/mul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -80,7 +80,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/divide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
