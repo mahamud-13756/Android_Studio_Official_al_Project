@@ -2,6 +2,7 @@ package com.example.calculatorapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,6 +23,21 @@ public class MainActivity extends AppCompatActivity {
         minus= findViewById(R.id.minus);
         mul= findViewById(R.id.mul);
         div= findViewById(R.id.divide);
+
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int fv,sv,ans;
+                fv = Integer.parseInt(en1.getText().toString());
+                sv = Integer.parseInt(en2.getText().toString());
+
+                ans=fv+sv;
+
+                tv.setText("Ans is: "+ans);
+
+            }
+        });
 
         //this is java backend file
     }
